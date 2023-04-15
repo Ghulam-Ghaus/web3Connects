@@ -33,10 +33,10 @@ const CoreTrack = () => {
             <div className="border rounded-md relative my-5 px-8 py-16 flex flex-col flex-1 justify-center">
               <h4 className="font-bold text-3xl">{item.header}</h4>
               <p className="mt-2 text-slate-600">{item.title}</p>
-              <p className="mt-2 text-slate-600">
+              <p className="mt-2 text-slate-600 overflow-hidden">
                 Account Address -- {item.ERC4337_Account}
               </p>
-              <p className="mt-2 text-slate-600 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <p className="mt-2  text-slate-600 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 {item.description}
               </p>
               <Link
