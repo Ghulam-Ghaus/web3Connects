@@ -36,7 +36,7 @@ const CoreTrack = () => {
               <p className="mt-2 text-slate-600 overflow-hidden">
                 Account Address -- {item.ERC4337_Account}
               </p>
-              <p className="mt-2  text-slate-600 sm:self-start self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <p className="mt-2  text-slate-600  self-center md:self-start text-2xl font-semibold whitespace-nowrap dark:text-white">
                 {item.description}
               </p>
               <Link
